@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import styled from "styled-components";
 import {StyledBtn} from "./components/Button.styled";
+import {Link} from "./components/Link.styled";
 
 function App() {
     return (
@@ -24,10 +25,6 @@ function App() {
 
 const SuperButton = styled(StyledBtn)`
     background-color: greenyellow;
-`
-
-const Link = styled.a`
-    color: dodgerblue;
 `
 
 const Menu = styled.nav`
