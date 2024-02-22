@@ -17,3 +17,7 @@ export const StyledBtn = styled.button`
         background-color: rgba(169, 99, 252, 0.5);
     }
 `
+
+export const SuperButton = styled(StyledBtn)`
+    background-color: greenyellow;
+`

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import styled from "styled-components";
-import {StyledBtn} from "./components/Button.styled";
+import {StyledBtn, SuperButton} from "./components/Button.styled";
 import {Link} from "./components/Link.styled";
 
 function App() {
@@ -22,26 +22,6 @@ function App() {
         </div>
     );
 }
-
-const SuperButton = styled(StyledBtn)`
-    background-color: greenyellow;
-`
-
-const Menu = styled.nav`
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: flex;
-        li > a {
-            text-decoration: none;
-        }
-    }
-    li + li {
-        margin-right: 30px;
-    }
-
-`
 
 const Box = styled.div`
     display: flex;
